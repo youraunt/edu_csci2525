@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bkallen/Desktop/gDriveDB/2020/Spring/CSCI-2525 Assembly/allenBriceHW1/decToBin.h
+iostream
+-
+
+/Users/bkallen/Desktop/gDriveDB/2020/Spring/CSCI-2525 Assembly/allenBriceHW1/functions.h
+iostream
+-
+zconf.h
+-
+
+/Users/bkallen/Desktop/gDriveDB/2020/Spring/CSCI-2525 Assembly/allenBriceHW1/main.cpp
+iostream
+-
+functions.h
+/Users/bkallen/Desktop/gDriveDB/2020/Spring/CSCI-2525 Assembly/allenBriceHW1/functions.h
+decToBin.h
+/Users/bkallen/Desktop/gDriveDB/2020/Spring/CSCI-2525 Assembly/allenBriceHW1/decToBin.h
+
