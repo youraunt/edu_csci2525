@@ -4,11 +4,15 @@
 *  Class       : CSC 2525
 *  HW#         : PA1
 *  Due Date    : Feb. 5, 2020
-*  File Name   : allenBricePA1
+*  File Name   : allenBriceHW1
 *******************************************************/
 
 
 #include <iostream>
+
+///@brief I think using a function form the standard library makes more sense
+///@brief why reinvent the wheel, right?
+
 
 //void intToBin(int userInput);
 //
@@ -24,15 +28,14 @@
 //    std::cout << binary;
 //};
 
-// C++ program to convert a decimal
-// number to binary number
-
 
 #include "functions.h"
 #include "decToBin.h"
 
-
+/// @brief Main method compilation begins and ends here.
+/// @return implied zero if all goes well.
 int main() {
+    /// @brief try and catch block to catch any non matching variable types
     try {
         while (true) {
             /// @brief Logical error on i/o operation
