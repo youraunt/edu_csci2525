@@ -10,7 +10,7 @@
 class decToBin {
 private:
     /// @brief Can handle up to 64 bits
-    int binary[64]{};
+    int binary[64];
 public:
     /// @brief Explicit constructor to avoid
     /// @brief unwanted implicit type conversions.

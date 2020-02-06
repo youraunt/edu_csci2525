@@ -6,7 +6,6 @@
 #define ALLENBRICEHW1_FUNCTIONS_H
 
 #include <iostream>
-#include <zconf.h>
 
 int playAgain();
 std::string exitProgram();

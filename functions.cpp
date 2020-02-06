@@ -19,7 +19,6 @@ int playAgain() {
 /// @brief Handles unusable input
 void unknownInput() {
     std::cerr << "\nError?! Unknown input.\n" << std::endl;
-    sleep(1);
     exitProgram();
 }///# unknownInput
 
